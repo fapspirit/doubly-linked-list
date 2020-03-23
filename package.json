@@ -1,0 +1,31 @@
+{
+  "name": "doubly-linked-list",
+  "version": "1.0.0",
+  "description": "A Doubly Linked List data structure with TS support",
+  "main": "index.js",
+  "author": "Anton fedorov <fapspirit@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env TS_NODE_FILES=true mocha --exit --require ts-node/register --colors test/**/*.ts",
+    "coverage": "nyc yarn run test"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.11",
+    "@types/mocha": "7.0.2",
+    "@types/node": "13.9.2",
+    "@typescript-eslint/eslint-plugin": "2.24.0",
+    "@typescript-eslint/parser": "2.24.0",
+    "chai": "4.2.0",
+    "cross-env": "7.0.2",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8",
+    "mocha": "7.1.1",
+    "nyc": "15.0.0",
+    "prettier": "1.19.1",
+    "ts-node": "8.7.0",
+    "typescript": "3.8.3"
+  }
+}
