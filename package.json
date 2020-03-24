@@ -6,6 +6,7 @@
   "author": "Anton fedorov <fapspirit@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "cross-env TS_NODE_FILES=true mocha --exit --require ts-node/register --colors test/**/*.ts",
     "coverage": "nyc yarn run test"
   },
